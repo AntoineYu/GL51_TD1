@@ -8,7 +8,9 @@ import gl51.service.UploadToCloudService
 import gl51.service.WaterMarkService
 
 import javax.inject.Inject;
+import javax.inject.Singleton
 
+@Singleton
 class UploadToCloudServiceImpl implements UploadToCloudService {
     @Inject ThumbnailService thumbnailService
     @Inject PictureResizeService pictureResizeService
