@@ -5,6 +5,7 @@ import gl51.data.Ip
 /**
  * ceci convertit des IP en string
  */
+
 interface IpConverterService {
 
     /**
